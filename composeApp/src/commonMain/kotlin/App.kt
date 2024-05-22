@@ -15,7 +15,7 @@ import org.jetbrains.compose.resources.*
 
 const val teamName = "Unnamed contestant!"
 
-@OptIn(ExperimentalResourceApi::class, ExperimentalLayoutApi::class)
+@OptIn(ExperimentalResourceApi::class)
 @Composable
 fun App() {
     MaterialTheme {
