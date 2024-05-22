@@ -23,7 +23,7 @@ import org.jetbrains.compose.resources.painterResource
 @Composable
 fun WebsiteView(modifier: Modifier, content: @Composable () -> Unit) {
     Box(modifier = Modifier
-        .background(Color.LightGray)
+        .background(Color(0xFFCCCCCC))
         .then(modifier)
     ) {
         Column(
@@ -43,7 +43,7 @@ fun WebsiteView(modifier: Modifier, content: @Composable () -> Unit) {
                         .padding(top = 8.dp)
                         .background(Color.White)
                         .clip(RoundedCornerShape(bottomEnd = 8.dp))
-                        .background(Color.LightGray)
+                        .background(Color(0xFFCCCCCC))
                         .height(28.dp)
                         .width(8.dp)
                 ) {}
@@ -68,7 +68,7 @@ fun WebsiteView(modifier: Modifier, content: @Composable () -> Unit) {
                         .padding(top = 8.dp)
                         .background(Color.White)
                         .clip(RoundedCornerShape(bottomStart = 8.dp))
-                        .background(Color.LightGray)
+                        .background(Color(0xFFCCCCCC))
                         .height(28.dp)
                         .width(8.dp)
                 ) {}
