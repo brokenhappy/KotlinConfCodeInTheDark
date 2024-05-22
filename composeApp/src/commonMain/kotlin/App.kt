@@ -19,9 +19,35 @@ const val teamName = "Unnamed contestant!"
 @Composable
 fun App() {
     MaterialTheme {
-        FlowRow(modifier = Modifier.padding(16.dp).fillMaxSize()) {
-            Image(painterResource(Res.drawable.kodee_waving), null)
-            Text("Hello World!", modifier = Modifier.align(Alignment.CenterVertically))
+        Column {
+            Box(Modifier.fillMaxHeight(.5f)) {
+                Image(painterResource(Res.drawable.kodee_waving), null)
+            }
+            Text(
+                text = "Hello",
+                modifier = Modifier
+                    .align(Alignment.CenterHorizontally),
+            )
+            Text(
+                text = " World!",
+                color = Color(red = 107, green = 48, blue = 255),
+//                color = Color(0xFF7954F6), // Alternative using ARGB
+                modifier = Modifier.align(Alignment.CenterHorizontally),
+            )
+            TextField(
+                modifier = Modifier.align(Alignment.CenterHorizontally),
+                value = "",
+                onValueChange = {},
+                placeholder = {
+                    Text(modifier = Modifier.align(Alignment.CenterHorizontally), text = "Insert text here")
+                },
+            )
+            Button(
+                modifier = Modifier.align(Alignment.CenterHorizontally),
+                onClick = {},
+            ) {
+                Text("Don't click me!")
+            }
         }
     }
 }
