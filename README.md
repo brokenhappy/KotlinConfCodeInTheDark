@@ -26,3 +26,14 @@ Participants will not see the live preview of their code; however, the audience 
 - The audience will vote using colored plates to determine which design most accurately matches the original mock-up.
 ## Prizes:
 Prizes will be awarded immediately after audience voting concludes for each session.
+
+## Participation tips:
+
+ - There is not a lot of time. To improve your odds we recommend:
+   - Be in time. This is a 10 minute challenge in a 15 minute break. You might have less time if there are delays as a sign of respect to our awesome speakers!
+   - Focusing on layout first yields the best results
+   - Colors do a lot too!
+ - The one time you are allowed to run: Use desktop, it's fastest, most likely to pass, and you can freely resize the pane.
+ - Being able to interact is **not** a requirement.
+ - Animations and anything asynchronous is not needed.
+ - Don't leave errors for too long, this might mess up your one run and it also means the audience can't see the preview :(
