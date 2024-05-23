@@ -1,6 +1,10 @@
 # Code in the Dark Challenge Rules - KotlinConf 2024
 ## Objective:
 Participants must accurately replicate a provided UI design across multiple platforms using Compose Multiplatform and Fleet, without the ability to preview their work until the challenge is complete.
+
+## Team size
+You are allowed to partake on your own or in a team of 2.
+
 ## Tools & Frameworks:
 - [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/)
 - [Fleet](https://www.jetbrains.com/help/kotlin-multiplatform-dev/fleet.html)
