@@ -34,6 +34,9 @@ fun App() {
 fun ExampleApisForYouToCopyFrom() {
     Box(Modifier.fillMaxHeight(.5f)) {
         Image(painterResource(Res.drawable.kodee_waving), null)
+        Image(painterResource(Res.drawable.kodee_cheerful_arms_raised), null)
+        Image(painterResource(Res.drawable.kodee_no_limbs_angry), null)
+        // There's more kodees! Check m out!
     }
     Text(text = "Hello World!", color = Color(red = 107, green = 48, blue = 255))
     Text(text = "Hello World!", color = Color(0xFF7954F6))
