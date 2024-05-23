@@ -16,46 +16,37 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 
 const val teamName = "Unnamed contestant!"
 
-@OptIn(ExperimentalResourceApi::class, ExperimentalLayoutApi::class)
+
 @Composable
+@OptIn(ExperimentalResourceApi::class, ExperimentalLayoutApi::class)
 fun App() {
     MaterialTheme {
-        FlowRow {
-            Column {
-                Box(Modifier.fillMaxHeight(.5f)) {
-                    Image(painterResource(Res.drawable.kodee_waving), null)
-                }
-                Text(
-                    text = "Hello",
-                    modifier = Modifier
-                        .align(Alignment.CenterHorizontally),
-                )
-                Text(
-                    text = " World!",
-                    color = Color(red = 107, green = 48, blue = 255),
-    //                color = Color(0xFF7954F6), // Alternative using ARGB
-                    modifier = Modifier.align(Alignment.CenterHorizontally),
-                )
-                TextField(
-                    modifier = Modifier.align(Alignment.CenterHorizontally),
-                    value = "",
-                    onValueChange = {},
-                    placeholder = {
-                        Text(modifier = Modifier.align(Alignment.CenterHorizontally), text = "Insert text here")
-                    },
-                )
-                Button(
-                    modifier = Modifier.align(Alignment.CenterHorizontally),
-                    onClick = {},
-                ) {
-                    Text("Don't click me!")
-                }
-            }
+        FlowRow(modifier = Modifier.padding(8.dp)) {
+            Image(painterResource(Res.drawable.kodee_waving), null)
+            Text(text = "Hello World!", modifier = Modifier.align(Alignment.CenterVertically))
         }
     }
 }
 
-
+@Composable
+@OptIn(ExperimentalResourceApi::class, ExperimentalLayoutApi::class)
+fun ExampleApisForYouToCopyFrom() {
+    Box(Modifier.fillMaxHeight(.5f)) {
+        Image(painterResource(Res.drawable.kodee_waving), null)
+    }
+    Text(text = "Hello World!", color = Color(red = 107, green = 48, blue = 255))
+    Text(text = "Hello World!", color = Color(0xFF7954F6))
+    TextField(
+        value = "",
+        onValueChange = {},
+        placeholder = {
+            Text(text = "Insert text here")
+        },
+    )
+    Button(onClick = {}) {
+        Text("Don't click me!")
+        }
+}
 
 
 
