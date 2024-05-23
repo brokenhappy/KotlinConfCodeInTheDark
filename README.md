@@ -28,11 +28,10 @@ Participants will not see the live preview of their code; however, the audience 
 Prizes will be awarded immediately after audience voting concludes for each session.
 
 ## Participation tips:
-
  - There is not a lot of time. To improve your odds we recommend:
    - Be in time. This is a 10 minute challenge in a 15 minute break. You might have less time if there are delays as a sign of respect to our awesome speakers!
    - Focusing on layout first yields the best results
-   - Colors do a lot too!
+   - Colors do a lot too! But be prepared to choose the RGB color yourself for best results! ;)
  - The one time you are allowed to run: Use desktop, it's fastest, most likely to pass, and you can freely resize the pane.
  - Being able to interact is **not** a requirement.
  - Animations and anything asynchronous is not needed.
