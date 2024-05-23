@@ -29,7 +29,8 @@ fun App() {
 }
 
 @Composable
-@OptIn(ExperimentalResourceApi::class, ExperimentalLayoutApi::class)
+@OptIn(ExperimentalResourceApi::class)
+@Suppress("unused")
 fun ExampleApisForYouToCopyFrom() {
     Box(Modifier.fillMaxHeight(.5f)) {
         Image(painterResource(Res.drawable.kodee_waving), null)
