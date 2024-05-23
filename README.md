@@ -36,3 +36,4 @@ Prizes will be awarded immediately after audience voting concludes for each sess
  - Being able to interact is **not** a requirement.
  - Animations and anything asynchronous is not needed.
  - Don't leave errors for too long, this might mess up your one run and it also means the audience can't see the preview :(
+ - The machine you will work on has ANSII keyboard. The only configuration we allow is to choose between Fleet, IntelliJ IDEA, or VSCode keymap. Sorry, no time for more changes :(
