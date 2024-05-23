@@ -9,7 +9,7 @@ You are allowed to partake on your own or in a team of 2.
 - [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/)
 - [Fleet](https://www.jetbrains.com/help/kotlin-multiplatform-dev/fleet.html)
 ## Duration:
-- **Total time:** 10 minutes per session.
+- **Total time:** 10 minutes per session. But only a single machine per team.
 ## Rules:
 ### 1. No Previews Allowed:
 Participants cannot preview their output during the coding session.
